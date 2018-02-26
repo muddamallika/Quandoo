@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QuandooSuite" parallel="classes" thread-count="3">
+  <test name="Test">
+    <classes>
+      <class name="herokuApp.herokuApp_Login"/> 
+      <class name="herokuApp.herokuApp_Tables"/>
+      <class name="herokuApp.herokuApp_Hover"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- QuandooSuite -->
